@@ -74,6 +74,9 @@ function renderUser(users) {
       </header>
       <p>${user.email}</p>
       <p class="text-truncate">${user.password}</p>
+      "scrips":{
+        "start":"src/app.py"
+        }
     `;
 
     const btnDelete = userItem.querySelector('.btn-delete');
